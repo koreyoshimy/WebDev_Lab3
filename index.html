@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio" />
+
+    <link rel="stylesheet" href="css/style1.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          
+          <span class="header__logo-sub">Foo Xin Chee</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="biodata.html" class="header__link"> About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#hobby" class="header__link">
+                Hobbies
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#campus" class="header__link"> Campus Life </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="img/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="biodata.html"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#hobby"> Hobbies </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#campus"> Campus Life </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is Foo Xin Chee</h1>
+        <div class="home-hero__cta">
+          <a target="_blank" href="https://github.com/koreyoshimy?tab=repositories" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a target="_blank" href="#" class="home-hero__social-icon-link">
+            <img
+              src="img/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a target="_blank" href="https://github.com/koreyoshimy" class="home-hero__social-icon-link">
+            <img
+              src="img/github-ico1.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="img/svg/instagram-ico.svg"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+
+    </section>
+    <section id="biodata" class="biodata sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Hi! I am Foo Xin Chee, a Year 2 Software Engineering student studying at Universiti Tun Hussein Onn Malaysia.
+          </span>
+        </h2>
+        <div class="biodata__content">
+          <div class="biodata__content-main">
+            <h3 class="biodata__content-title">Get to know me!</h3>
+            <div class="biodata__content-details">
+              <p class="biodata__content-details-para">
+                Hey! It's
+                <strong>Foo Xin Chee</strong>
+                and I'm a <strong> Year 2 Software Engineering student! </strong> located in
+                Parit Raja.
+              </p>
+              <p class="biodata__content-details-para">
+                Feel free to
+                <strong>contact</strong> me here.
+              </p>
+            </div>
+            <a target="_blank" href="https://www.linkedin.com/in/foo-xin-chee-441a8b163/" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="biodata__content-skills">
+            <h3 class="biodata__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">Java</div>
+              <div class="skills__skill">Wordpress</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobby" class="hobby sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Hobbies</span>
+          <span class="heading-sec__sub">
+            I have several hobbies to do during my free time.
+          </span>
+        </h2>
+
+        <div class="hobby__content">
+          <div class="hobby__row">
+            <div class="hobby__row-img-cont">
+              <img
+                src="img/jpg/dessert.jpg"
+                alt="Dessert"
+                class="hobby__row-img"
+                loading="lazy"
+                width="300" height="500"
+              />
+            </div>
+            <div class="hobby__row-content">
+              <h3 class="hobby__row-content-title">Eating Dessert</h3>
+              <p class="hobby__row-content-desc">
+                I love the cheesecake at these cafe! It tastes super amazing!
+              </p>
+            </div>
+          </div>
+          <div class="hobby__row">
+            <div class="hobby__row-content">
+              <h3 class="hobby__row-content-title">Gym</h3>
+              <p class="hobby__row-content-desc">
+                I liked to go to gym to release stress because it can strengthen my bones and muscles. Not only that, it can also pumps up my endorphins that can make me happy.
+              </p>
+            </div>
+            <div class="hobby__row-img-cont">
+              <img
+                src="img/jpg/gym.jpg"
+                alt="Gym"
+                class="hobby__row-img"
+                loading="lazy"
+                width="300" height="500"
+              />
+            </div>
+
+          </div>
+          <div class="hobby__row">
+            <div class="hobby__row-img-cont">
+              <img
+                src="img/jpg/milk_tea.jpg"
+                alt="Milk tea"
+                class="hobby__row-img"
+                loading="lazy"
+                width="100px" height="700px"
+              />
+            </div>
+            <div class="hobby__row-content">
+              <h3 class="hobby__row-content-title">Drink Milk Tea</h3>
+              <p class="hobby__row-content-desc">
+                This is my first ever experience the milk tea "Beutea" which located at Johor Bahru.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="campus" class="campus sec-pad" style="background:linear-gradient(to right, rgba(34, 160, 44, 0.8), rgba(123, 165, 202, 0.8))">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Campus Life</span>
+          <span class="heading-sec__sub">
+            This is my campus life during study.
+          </span>
+        </h2>
+
+        <div class="campus__content">
+          <div class="campus__row">
+            <div class="campus__row-img-cont">
+              <img
+                src="img/jpg/rock_climbing.jpg"
+                alt="Wall Climbing"
+                class="campus__row-img"
+                loading="lazy"
+                height="400" width="300"
+              />
+            </div>
+            <div class="campus__row-content">
+              <h3 class="campus__row-content-title">Wall Climbing</h3>
+              <p class="campus__row-content-desc">
+                This is my first outdoor activities at my first semester of study which is wall climbing.
+              </p>
+            </div>
+          </div>
+          <div class="campus__row">
+            <div class="campus__row-content">
+              <h3 class="campus__row-content-title">Library</h3>
+              <p class="campus__row-content-desc">
+                Sometimes, I liked to go to library to do some revision after class.
+              </p>
+            </div>
+            <div class="campus__row-img-cont">
+              <img
+                src="img/jpg/library.jpg"
+                alt="UTHM Library"
+                class="projects__row-img"
+                loading="lazy"
+                width="400" height="300"
+              />
+            </div>
+
+          </div>
+          <div class="campus__row">
+            <div class="campus__row-img-cont">
+              <img
+                src="img/jpg/exam.jpg"
+                alt="Exam Hall"
+                class="campus__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="campus__row-content">
+              <h3 class="campus__row-content-title">Examination</h3>
+              <p class="campus__row-content-desc">
+                This is my first time experiencing physical test at F2 main campus UTHM.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <footer class="main-footer">
+      <div class="main-container">
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2023. Made by
+            Foo Xin Chee
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
